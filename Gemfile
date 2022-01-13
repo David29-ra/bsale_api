@@ -46,3 +46,7 @@ group :development do
   # gem "spring"
 end
 
+gem "figaro"
+
+gem "rubocop"
+gem "rubocop-rails"
