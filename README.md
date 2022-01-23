@@ -60,10 +60,37 @@ For the frontend part, the UI/UX was build in Js(vanilla) using bootstrap and sw
 
 The result of the frontend is a website that can be seen in the following link:
 
-/put link/
-
     For the user experience, the web site use Listeners of DOM to manage the interaction between the user and the website.
 
+## Diagram
+<br/>
+
+![img](./screenshoot/bsaleapp.png)
+
+    The diagram is a simple diagram of the structure of the project.
+
+    The structure of the project is:
+    
+    * Mysql instance in aws.
+
+    * Ruby on Rails connect wit the database using the credentials of the aws.
+
+    * Backend API using RoR, return all products filtered by the category.
+
+    * Frontend UI/UX using Js(vanilla), get the data from the backend API using FETCH(api for js to make HTTP requests) and show it in the website.
+
+    * Helpers of the frontend, like the capitalization of the name of the product.
+
+
+## How it works
+
+    The app is a online store where you can add products on your cart (it doens't have a pay methods), and you can see the products filtered by the category and oferts. Also you can search any product by its name.
+
+![img](./screenshoot/viewapp.png)
+
+The result of the frontend is a website that can be seen in the following link:
+
+https://davidrivas-store01.herokuapp.com/
 <br/><br/>
 ### Ready, you can enjoy!
 
